@@ -1,7 +1,6 @@
 import os
 import torch
 
-# os.system("wget -P cvec/ https://huggingface.co/lj1995/VoiceConversionWebUI/resolve/main/hubert_base.pt")
 import gradio as gr
 import librosa
 import numpy as np
