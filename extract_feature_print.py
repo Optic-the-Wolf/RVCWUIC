@@ -66,7 +66,7 @@ printt("load model(s) from {}".format(model_path))
 # if hubert model is exist
 if os.access(model_path, os.F_OK) == False:
     printt(
-        "Error: Extracting is shut down because %s does not exist, you may download it from https://huggingface.co/lj1995/VoiceConversionWebUI/tree/main"
+        "Error: Extracting is shut down because %s does not exist"
         % model_path
     )
     exit(0)
